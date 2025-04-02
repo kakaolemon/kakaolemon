@@ -1,0 +1,39 @@
+{
+	"name": "@kakaolemon/kakaolemon",
+	"version": "1.0.0",
+	"description": "Kakaolemon, a simple and easy framwework fot building a rest API",
+	"main": "dist/public/index.js",
+	"types": "dist/public/types/index.d.ts",
+	"scripts": {
+		"dev": "node -r ts-node/register --watch public/index.ts",
+		"build": "tsc",
+		"start": "node --watch dist/public/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kakaolemon/kakaolemon.git"
+	},
+	"keywords": [
+		"API framwework",
+		"rest API",
+		"typescript",
+		"kakaolemon"
+	],
+	"author": "Ananda Erditya",
+	"license": "MIT",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/kakaolemon/kakaolemon/issues"
+	},
+	"homepage": "https://github.com/kakaolemon/kakaolemon#readme",
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"dependencies": {
+		"@anandaerditya/puntconf": "^1.0.3",
+		"@types/node": "^22.13.14",
+		"module-alias": "^2.2.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.2"
+	}
+}
