@@ -1,7 +1,7 @@
 {
 	"name": "@kakaolemon/kakaolemon",
 	"version": "1.0.0",
-	"description": "Kakaolemon, a simple and easy framwework fot building a rest API",
+	"description": "Kakaolemon, a simple and easy framework for building a REST-API",
 	"main": "dist/public/index.js",
 	"types": "dist/public/types/index.d.ts",
 	"scripts": {
